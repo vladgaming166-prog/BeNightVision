@@ -24,6 +24,14 @@ Supported runtimes:
 
 Minecraft switched from `1.21.x` to year-based versions in 2026 (`26.1`, `26.2`, `26.3`). There is no `1.26.3` release.
 
+## Download
+
+Prebuilt plugin JAR:
+
+- [BeNightVision-1.0.0.jar](https://github.com/vladgaming166-prog/BeNightVision/raw/cursor/benightvision-plugin-425b/dist/BeNightVision-1.0.0.jar)
+
+Copy that file into your Paper server’s `plugins` folder.
+
 ## Build
 
 ```bash
