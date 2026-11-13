@@ -1,0 +1,30 @@
+# BeNightVision configuration
+# Color codes use the Minecraft ampersand format (e.g. &a, &c, &e).
+
+prefix: "&8[&bBeNightVision&8]&r "
+
+# Persistent global Night Vision state.
+# true  = all online players and future joins receive Night Vision
+# false = only players enabled with /bnv on <player> receive it
+global-night-vision: false
+
+messages:
+  no-permission: "&cYou do not have permission to do that."
+  enabled: "&aNight Vision enabled for &e{player}&a."
+  disabled: "&cNight Vision disabled for &e{player}&c."
+  global-enabled: "&aNight Vision enabled for all players."
+  global-disabled: "&cNight Vision disabled for all players."
+  player-not-found: "&cPlayer &e{player} &cwas not found."
+  player-offline: "&cPlayer &e{player} &cis not online."
+  usage: "&eUsage: &f/bnv <on|off> <player|all>"
+  usage-on: "&eUsage: &f/bnv on <player|all>"
+  usage-off: "&eUsage: &f/bnv off <player|all>"
+  help:
+    - "&b&lBeNightVision &7v1.0.0"
+    - "&7Permanent Night Vision for Paper servers."
+    - "&e/bnv on all &8- &7Enable Night Vision for every online player"
+    - "&e/bnv on <player> &8- &7Enable Night Vision for a specific player"
+    - "&e/bnv off all &8- &7Disable Night Vision for every online player"
+    - "&e/bnv off <player> &8- &7Disable Night Vision for a specific player"
+    - "&e/bnv &8- &7Show this help message"
+    - "&7Aliases: &e/benightvision"
