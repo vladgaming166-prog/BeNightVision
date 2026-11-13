@@ -1,0 +1,26 @@
+name: BeNightVision
+version: ${project.version}
+main: ro.besina.benightvision.BeNightVision
+description: Toggle permanent Night Vision for players on Paper servers.
+author: Besina
+api-version: "1.20"
+folia-supported: false
+load: POSTWORLD
+
+commands:
+  bnv:
+    description: Enable or disable Night Vision for players.
+    usage: /<command> [on|off] [player|all]
+  benightvision:
+    description: Enable or disable Night Vision for players.
+    usage: /<command> [on|off] [player|all]
+
+permissions:
+  benightvision.admin:
+    description: Allows all BeNightVision commands.
+    default: op
+    children:
+      benightvision.use: true
+  benightvision.use:
+    description: Allows viewing BeNightVision help.
+    default: true
